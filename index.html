@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <meta http-equiv="origin-trial" content="WebGL">
+    <meta http-equiv="origin-trial" content="WebGPU"> -->
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -12,34 +15,125 @@
     <div class="layer-blue"></div>
     <div class="container">
       <header>
-        <h1 class="logo">CODE</h1>
+        <h1
+          class="logo"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-delay=""
+        >
+          CODE
+        </h1>
         <nav>
-          <a href="#">Company</a>
-          <a href="#">Features</a>
-          <a href="#">Resources</a>
-          <a href="#">Docs</a>
+          <a
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-delay=""
+            href="#"
+            >Company</a
+          >
+          <a
+            data-aos="fade-down"
+            data-aos-duration="1800"
+            data-aos-delay=""
+            href="#"
+            >Features</a
+          >
+          <a
+            data-aos="fade-down"
+            data-aos-duration="2100"
+            data-aos-delay=""
+            href="#"
+            >Resources</a
+          >
+          <a
+            data-aos="fade-down"
+            data-aos-duration="2400"
+            data-aos-delay=""
+            href="#"
+            >Docs</a
+          >
         </nav>
-        <button class="btn-sign">Sign up</button>
+        <button
+          data-aos="fade-down"
+          data-aos-duration="2700"
+          data-aos-delay=""
+          class="btn-sign"
+        >
+          Sign up
+        </button>
       </header>
       <main>
         <div class="content">
-          <div class="tag-box">
+          <div
+            class="tag-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-duration="1500"
+            data-aos-offset="0"
+          >
             <div class="tag">INTRODUCTION &wedbar;</div>
           </div>
-          <h1>
+          <h1
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-duration="2000"
+            data-aos-offset="0"
+          >
             EMAIL FOR <br />
             DEVLOPERS
           </h1>
-          <p class="description">
+          <p
+            class="description"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-duration="2500"
+            data-aos-offset="0"
+          >
             The best way to reach humans instead of spam folders, deliver
             transactional and marketing emails at scale.
           </p>
-          <div class="buttons">
+          <div
+            class="buttons"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+            data-aos-offset="0"
+          >
             <a href="#" class="btn-get-started">Documentation &gt;</a>
             <a href="#" class="btn-signing-main">Get Started &gt;</a>
           </div>
         </div>
       </main>
+      <spline-viewer
+        class="robot-3D"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-duration="3500"
+        data-aos-offset="0"
+        url="https://prod.spline.design/XQSc2ENKy53sXMRO/scene.splinecode"
+      ></spline-viewer>
+
+      <!-- <spline-viewer
+      class="robot-3D"
+      url="https://prod.spline.design/TfjH8gRqZM-QeP00/scene.splinecode">
+      </spline-viewer> -->
     </div>
+    <!-- <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"
+    ></script> -->
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
